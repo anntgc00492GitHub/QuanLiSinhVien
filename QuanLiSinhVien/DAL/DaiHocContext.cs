@@ -23,7 +23,5 @@ namespace QuanLiSinhVien.DAL
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
         }
-
-
     }
 }

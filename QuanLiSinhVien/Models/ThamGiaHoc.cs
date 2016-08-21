@@ -8,7 +8,7 @@ namespace QuanLiSinhVien.Models
     {
         Sang,Chieu,Toi        
     }
-    //develop
+
     public class ThamGiaHoc
     {
         [Key]
