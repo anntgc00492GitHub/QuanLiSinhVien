@@ -1,0 +1,42 @@
+﻿@model QuanLiSinhVien.Models.SinhVien
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>SinhVien</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.HoDem)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HoDem)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ten)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ten)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NgayNhapHoc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NgayNhapHoc)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.SinhVienId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
